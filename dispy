@@ -1,0 +1,2 @@
+
+A dispy client program should first create a cluster for a computation, which can be either a Python function or a standalone program. The cluster can also specify which nodes can execute it. Once the cluster is created, the computation can be evaluated as many times as necessary, each time with different data, by invoking submit method on the cluster. Each time submit method is called, it returns DispyJob or job, which can later be examined for result of execution, output or error messages etc.
